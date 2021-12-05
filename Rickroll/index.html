@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<title>Mr. Beast Christmas Giveaway</title>
+
+<link rel="stylesheet" href="stylesheet.css">
+
+
+
+<body>>
+    <center>
+    <img src="banner.png" class="fluid" height="150px" width="800px" >
+</center>
+<div class="loo">
+    <center>
+      <img src="he.png" class="fluid" height="100px" width="400px" >
+</div>
+
+<center>
+    <div class="video-player">
+        <video src="rrrrr.mp4" class="video" poster="pos.png" id="data"></video>
+   
+        <div class="player-controls">
+            <button class="play-button" title="Play" onclick="time()">TRY MY LUCK</button>
+        </div>
+    </div>
+</center>
+
+<script>
+
+    // start
+function time(){
+    const start = () => {
+        
+        setTimeout(function() {
+            confetti.start()
+        }, 23000); // 1000 is time that after 1 second start the confetti ( 1000 = 1 sec)
+
+    };
+
+    //  Stop
+
+    const stop = () => {
+            setTimeout(function() {
+            confetti.stop()
+         }, 50000); // 5000 is time that after 5 second stop the confetti ( 5000 = 5 sec)
+        };
+
+     start();
+     stop();    
+}
+
+
+</script>
+
+<script src="scrip.js"></script>
+</body>
+
+</html>

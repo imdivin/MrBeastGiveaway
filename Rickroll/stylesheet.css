@@ -1,0 +1,49 @@
+
+body{
+    background-image: url(back.jpg);
+}
+
+div{
+  height:50px;white-space:nowrap;
+    padding:5px;
+}
+
+.loo{
+  white-space: normal;
+  padding: 0px;
+}
+
+.video-player{
+  padding:60px;
+}
+
+.play-button {
+    width: 250px;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: chartreuse;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .play-button:hover {background-color: #b60505}
+  
+  .play-button:active {
+    background-color: #dd0b0b;
+    box-shadow: 0 5px rgb(212, 5, 5);
+    transform: translateY(4px);
+  }
+  
+  .ric{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  }
